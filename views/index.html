@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <title>Adventurous</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+<body>
+
+    <!--NAVBAR-->
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <img class="navbar-brand" src='../images/logo.png' width="5%" onclick="location.href = '/';">
+        <a class="navbar-brand" href="/">Adventurous</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  DESTINATIONS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/cities/paris">PARIS</a>
+                  <a class="dropdown-item" href="/cities/madrid">MADRID</a>
+                  <a class="dropdown-item" href="/cities/berlin">BERLIN</a>
+                  <a class="dropdown-item" href="/cities/lisbonne">LISBON</a>
+                  <a class="dropdown-item" href="/cities/londres">LONDON</a>
+                  <a class="dropdown-item" href="/cities/rome">ROME</a>
+                </div>
+              </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/hotel">HOTELS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/restaurant">RESTAURANTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/activite">ACTIVITIES</a>
+              </li>
+          </ul>
+          
+        <div class='right' id="login">
+            <button id="nav" class="btn btn-outline-success" type="button" onclick="location.href = '/login'">LOG IN</button>
+            <button id="nav" class="btn btn-outline-success" type="button" onclick="location.href = '/signup'">REGISTER</button>
+        </div>
+
+   
+            
+        </div>
+
+      </nav>
+
+<!--HEADER IMAGE-->
+    
+<header>
+    <div class="bg-image" 
+    style="background-image: url(../images/back.png);
+           height: 50vh;">
+</div>
+</header>
+
+<!--TITRE-->
+
+<section>
+    <h1>DESTINATIONS</h1>
+</section>
+
+
+<!--TEXTE DESCRIPTIF-->
+
+<div>
+
+
+
+  <p class="info">Adventurous is YOUR NEW FAVORITE FORMUM!! We are here to help you plan your next vacation arount Europe.
+  
+  <br> <i>You will be able to:</i>
+  
+  <br>* <b>SHARE</b> your experiences in diferent cities.
+  
+  <br>* <b>COMMENT</b> experiences from other users.
+  
+  <br>* <b>VISIT</b> the last posts to help you find the best hotels or restaurants.
+  
+  </p>
+  
+  </div>
+
+
+  <!--CARDS AVEC IMAGE--><div class="card-group"><div class="card"><img src="../images/paris.png" class="card-img-top " alt="Image of the Tour Eiffel in Paris"><div class="card-body"><h5 class="card-title"><a href="/cities/paris">PARIS</a></h5><p class="card-text">The wonderful capital of France. The city of LOVE. The city is known for its architecture and also for its gastronomy. You will find amazing restaurants, from local bistros to restaurants with michelin starts. Come visit this super city for a week end or a week.</p></div>
+  </div><div class="card"><img src="../images/madrid.png" class="card-img-top" alt="Image of Madrid"><div class="card-body"><h5 class="card-title"><a href="/cities/madrid">MADRID</a></h5><p class="card-text">Madrid, the Spanish capital. A small tip, 'tio' means 'bro' in Spain. Be ready to eat late and listen to music evrytime you will walk around the city. Madrid is really dynamic and you will maybe have some times to take salsa clases.</p></div></div>
+  <div class="card"><img src="../images/berlin.png" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title"><a href="/cities/berlin">BERLIN</a></h5><p class="card-text">Brelin, the German capital. Take some german clases because it is not an easy language, but don't worry, the german will in general understand you if you speak english... not like the french.If you were looking to party, you choose the right destination! Berlin is also the capital of ELECTRONIC MUSICS. And if you wanted chill days, Berlin will ofers you a lot of different museums to know more about history.</p></div></div></div>
+  <div class="card-group"><div class="card"><img src="../images/lisbonne.png" class="card-img-top" alt="Image of Lisbon"><div class="card-body"><h5 class="card-title"><a href="/cities/lisbonne">LISBON</a></h5><p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ratione, odit et fugiat necessitatibus ducimus voluptatibus neque ex doloribus, magni exercitationem totam soluta atque veritatis reiciendis quidem incidunt recusandae explicabo.</p></div></div>
+  <div class="card"><img src="../images/londre.png" class="card-img-top" alt="Image of London"><div class="card-body"><h5 class="card-title"><a href="/cities/londres">LONDON</a></h5><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque nostrum aperiam odit, corporis quidem placeat similique cum facilis laboriosam sequi quod corrupti eum recusandae facere blanditiis optio dolor sint.</p></div></div>
+  <div class="card"><img src="../images/rome.png" class="card-img-top" alt="Image of Rome"><div class="card-body"><h5 class="card-title"><a href="../cities/rome">ROME</a></h5><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nulla facilis recusandae voluptates repudiandae et maiores, minima unde! Possimus repellendus ullam magnam praesentium temporibus ducimus incidunt, fuga reiciendis impedit sapiente.</p></div></div></div>
+  <!--FOOTER -->
+  
+  <section class="text">Adventurous was made by EPITECH students. The CEO's share the same pasion: Traveling!! They were looking a way to helppeople to choose the right hotels, restaurants o other while traveling. They decided to create ADVENTUROUS forum! <br>NOW share your experiences.
+  
+    <div class="log" id="login2">
+
+      <button type="button" id="here" class="btn btn-light4" onclick="location.href = '/login'">Log In</button>
+      
+      <button type="button" class="btn btn-light5" onclick="location.href = '/signup'">Register</button>
+      
+      </div>
+      
+      </section>
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        
+      </section>
+      <!-- Section: Social media -->
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">Adventurous@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script defer>
+    username = <%- JSON.stringify(session.user) %>;
+    //CE QUI VA ETRE INSERE QUAND NON CONNECTE
+    loginPath = "'/login'";
+    signupPath = "'/signup'";
+    logoutPath = "'/logout'";
+    profilePath =  "'/checkUser/"+username+"'";
+  
+    loginButton = '<button type="button" id="here" class="btn btn-light4" onclick="location.href ='+ loginPath +'">Log In</button>'
+    signupButton = '<button type="button" class="btn btn-light5" onclick="location.href = '+ signupPath + '">Register</button>'
+    logoutButton = '<button type="button" id="nav" class="btn btn-outline-success" onclick="location.href =' + logoutPath + '">LOGOUT</button>'
+    profileButton = '<button type="button" id="nav" class="btn btn-outline-success" onclick="location.href =' + profilePath + '">MY PROFILE</button>'
+  
+    login = document.getElementById('login');
+    login2 = document.getElementById('login2');
+    logout = document.getElementById('logout');
+    if (username) { 
+      login.innerHTML = profileButton + logoutButton;
+      login2.innerHTML = profileButton + logoutButton;
+    } else {
+      login.innerHTML = loginButton + signupButton;
+      login2.innerHTML = loginButton + signupButton;
+    }
+  </script>
+</body>
+</html>

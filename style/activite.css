@@ -1,0 +1,102 @@
+
+
+@media only screen and (max-width: 600px) {
+
+  .navbar  img  {
+    width: 13%;
+  
+  }
+
+
+}
+
+
+
+
+
+
+/*CSS*/
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  }
+
+/*NAV BAR*/
+
+.info {
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  padding-bottom: 4%;
+}
+
+.right {
+    margin-left: 30%;
+  }
+  #navbarText {
+    margin-left: 20%;
+  }
+  #nav {
+    background-color: lightslategray;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .bg-image {
+    margin-bottom: 4%;
+  }
+
+  /* CARDS*/
+  
+  .row{
+    padding-bottom: 3%;
+    padding-top: 8%;
+    padding-left: 14%;
+    padding-right: 20%;
+    border-style: none;
+}
+
+.card{
+  border-style: none;
+}
+
+#btn{
+  background-color: rgb(137, 158, 230);
+  border-color: rgb(137, 158, 230);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+
+/* FOOTER */
+
+.text {
+  padding-top: 10%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.log {
+  display: flex;
+  margin-left: 70%;
+  color: grey;
+  position: absolute;
+  width: 80%;
+}

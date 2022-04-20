@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+.tableau {
+    border:1px solide #C0C0C0;
+    border-collapse:effondrer;
+    padding:10px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.tableau th {
+    border:1px solide #C0C0C0;
+    padding:10px;
+    background:#F0F0F0;
+}
+.tableau td {
+    border:1px solide #C0C0C0;
+    padding:10px;
+}
+#edit {
+    display: flex;
+}
+.loop, .update {
+    margin-right: 5px;
+}
+/* PARTIE REACTIVE : ON CLICK, DISPLAY SELECTED ELEMENT*/
+#modalScreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    visibility: hidden;
+}
+
+/*ANIMATION TO HIDE THE BLOCK THAT WILL FUNCTION BY CLICKING ON THE BUTTON BELOW*/
+@keyframes hide {
+    0% {
+
+    }
+    100% {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        transition: 0.2s;
+    }
+}
+
+#modalButton {
+    position: absolute;
+    top: 32%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    width: fit-content;
+}
+#modalSelection {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background-color: #F0F0F0;
+}

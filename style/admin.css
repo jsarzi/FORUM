@@ -1,0 +1,216 @@
+body {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+/* NAV BAR */
+.right {
+  width: 30%;
+  display: flex;
+  padding-bottom: 3%;
+  margin-left: 20%;
+}
+#navbarText {
+  margin-left: 20%;
+}
+#nav {
+  background-color: lightslategray;
+  color: white;
+  border-color: white;
+  font-size: 15px;
+  height: 30%;
+  width: 35%;
+}
+h1 {
+  text-align: center;
+}
+
+.info {
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  padding-bottom: 4%;
+}
+.dropdown-item {
+  background-color: grey;
+}
+/* AVATAR */
+
+.rounded-circle {
+  margin-left: 42%;
+  height: 32%;
+}
+img.rounded-circle {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+h2 {
+  padding-top: 3%;
+  width: 100%;
+  margin-left: 3%;
+}
+
+.username,
+.password {
+  display: flex;
+  margin-left: 5%;
+}
+
+.input {
+  width: 150px;
+}
+
+.btn btn-light {
+  background-color: grey;
+}
+
+.post {
+  height: 100px;
+}
+
+.user {
+  height: 100px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.tableau {
+  border: 1px solide #c0c0c0;
+  border-collapse: effondrer;
+  padding: 10px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.tableau th {
+  border: 1px solide #c0c0c0;
+  padding: 10px;
+  background: #f0f0f0;
+}
+.tableau td {
+  border: 1px solide #c0c0c0;
+  padding: 10px;
+}
+#edit {
+  display: flex;
+}
+.loop,
+.update {
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;
+}
+/* PARTIE REACTIVE : ON CLICK, DISPLAY SELECTED ELEMENT*/
+#modalScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  visibility: hidden;
+}
+
+/*ANIMATION TO HIDE THE BLOCK THAT WILL FUNCTION BY CLICKING ON THE BUTTON BELOW*/
+@keyframes hide {
+  0% {
+  }
+  100% {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transition: 0.2s;
+  }
+}
+
+#modalButton {
+  position: absolute;
+  top: 32%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  z-index: 101;
+  width: fit-content;
+}
+#modalSelection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: #f0f0f0;
+}
+td {
+  cursor: default;
+}
+
+td#id,
+td.value {
+  cursor: not-allowed;
+}
+/*FOOTER */
+.text {
+  padding-top: 5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.log {
+  display: flex;
+  margin-left: 70%;
+  color: grey;
+  position: absolute;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+  a.navbar-brand {
+    margin-right: 55%;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .text {
+    margin-left: 20%;
+  }
+  .log button {
+    background-color: tomato;
+    position: -webkit-sticky;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,110 @@
+body {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+/* NAV BAR */
+.right {
+  margin-left: 30%;
+}
+#navbarText {
+  margin-left: 20%;
+}
+#nav {
+  background-color: lightslategray;
+  color: white;
+  border-color: white;
+  font-size: 15px;
+}
+section h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.info {
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  padding-bottom: 4%;
+}
+
+/* CARDS */
+.card-img-top {
+  margin-left: 3%;
+  margin-top: 0.5%;
+}
+
+.card-group {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.card-title a {
+  margin-left: 40%;
+  color: black;
+  size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-align: center;
+  color: grey;
+  size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 1s;
+  font-size: 30px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+/* FOOTER */
+
+.text {
+  padding-top: 5%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 30%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+}
+
+.log {
+  display: flex;
+  margin-left: 70%;
+  color: grey;
+  position: absolute;
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+  a.navbar-brand {
+    margin-right: 55%;
+  }
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .text {
+    margin-left: 20%;
+  }
+  .log button {
+    background-color: tomato;
+    position: -webkit-sticky;
+    visibility: hidden;
+  }
+}
